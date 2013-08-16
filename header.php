@@ -29,7 +29,7 @@
 		<div class="site-branding">
 				<div id="" class="" style="height:5px; border-top:5px solid #DF8E23;"></div>
 				<div id="headerDate" style="float:right; margin-right:10px;">
-				<?php the_time('j \d\e F \d\e Y \a \l\a\s G:i a') ?></div>
+				<?php the_time('l, F jS, Y') ?></div>
 				<!-- #logo -->
 
                 <!--<?php if($boton_video == 0 & $active_slider == 0 ){$style_logo = "position:relative; left:270px;'";} ?>-->
