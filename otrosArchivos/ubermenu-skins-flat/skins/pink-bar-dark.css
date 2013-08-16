@@ -1,0 +1,174 @@
+/* UberMenu Flat Skin Pack, Copyright Chris Mavricos, SevenSpark.  http://wpmegamenu.com/flat-skins */
+#megaMenu.wpmega-preset-flat-pink-bar-dark {
+  background: #c70c70;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark #megaMenuToggle,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item span,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu p,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu .widgettitle {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark #megaMenuToggle .megaMenuToggle-icon {
+  top: 3px;
+  background: #fefefe;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark #megaMenuToggle .megaMenuToggle-icon:before,
+#megaMenu.wpmega-preset-flat-pink-bar-dark #megaMenuToggle .megaMenuToggle-icon:after {
+  background: #fefefe;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item > span.um-anchoremulator,
+#megaMenu.wpmega-preset-flat-pink-bar-dark #megaMenuToggle {
+  padding: 16px 20px;
+  color: #fefefe;
+  font-size: 13px;
+  border: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  line-height: 20px;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item > a span.wpmega-link-title,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item > span.um-anchoremulator span.wpmega-link-title {
+  font-weight: 600;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-reg li.menu-item.megaReg-with-sub > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-reg li.menu-item.megaReg-with-sub > span.um-anchoremulator,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.mega-with-sub > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-mega > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator {
+  padding-right: 25px;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item:hover > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item > a:hover,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.megaHover > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item:hover > span.um-anchoremulator,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item > span.um-anchoremulator:hover,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.megaHover > span.um-anchoremulator {
+  background-color: #770743;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.current-menu-item > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.current-menu-parent > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.current-menu-ancestor > a {
+  background: #770743;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.ss-nav-menu-highlight > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.ss-nav-menu-highlight > span.um-anchoremulator {
+  background: #770743;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.ss-nav-menu-mega > ul.sub-menu-1,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu {
+  border-color: #555555;
+  background: #555555;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu {
+  min-width: 100%;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item:hover > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item > span.um-anchoremulator,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > span.um-anchoremulator,
+#megaMenu.wpmega-preset-flat-pink-bar-dark .wpmega-widgetarea h2.widgettitle {
+  color: #eeeeee;
+  font-weight: bold;
+  padding-bottom: .4em;
+  margin-bottom: 0.6em;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item ul.sub-menu,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-mega ul ul.sub-menu li.menu-item > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-mega ul ul.sub-menu li.menu-item > span.um-anchoremulator,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu ul.sub-menu li.menu-item > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu ul.sub-menu li.menu-item > span.um-anchoremulator,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu li.menu-item ul.wpmega-postlist div.wpmega-postlist-title a {
+  color: #dddddd;
+  font-size: 12px;
+  text-shadow: none;
+  background-color: transparent;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu ul.sub-menu li.menu-item a:hover span.wpmega-link-title,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu ul.sub-menu li.menu-item.megaHover > a span.wpmega-link-title,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu li.menu-item ul.wpmega-postlist div.wpmega-postlist-title a:hover,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item.current-menu-ancestor ul.sub-menu li.menu-item.current-menu-item > a {
+  color: #c70c70;
+  background-color: transparent;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item ul.sub-menu li.menu-item.ss-nav-menu-highlight > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item ul.sub-menu li.menu-item.ss-nav-menu-highlight > span.um-anchoremulator,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item ul.sub-menu li.menu-item.ss-nav-menu-highlight:hover > a,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item ul.sub-menu li.menu-item.ss-nav-menu-highlight:hover > span.um-anchoremulator {
+  color: #c70c70;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item a span.wpmega-item-description,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu li.menu-item span.um-anchoremulator span.wpmega-item-description {
+  font-size: 9px;
+  color: #999999;
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item > a span.wpmega-item-description,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item > span.um-anchoremulator span.wpmega-item-description {
+  color: #770743;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item:hover > a span.wpmega-item-description,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item:hover > span.um-anchoremulator span.wpmega-item-description,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.megaHover > a span.wpmega-item-description,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.megaHover > span.um-anchoremulator span.wpmega-item-description,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.current-menu-item > a span.wpmega-item-description,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.current-menu-item > span.um-anchoremulator span.wpmega-item-description,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.current-menu-parent > a span.wpmega-item-description,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.current-menu-parent > span.um-anchoremulator span.wpmega-item-description,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.current-menu-ancestor > a span.wpmega-item-description,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu > li.menu-item.current-menu-ancestor > span.um-anchoremulator span.wpmega-item-description {
+  color: #eeeeee;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark > ul.megaMenu > li.menu-item > .wpmega-nonlink > form#searchform.ubersearch-v2 .ubersearch {
+  margin: 5px 5px 0 0;
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark > ul.megaMenu > li.menu-item > .wpmega-nonlink > form#searchform.ubersearch-v2 input[type="submit"] {
+  background: #111;
+  background: rgba(0, 0, 0, 0.4);
+}
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu a span.uber-close,
+#megaMenu.wpmega-preset-flat-pink-bar-dark ul.megaMenu span.um-anchoremulator span.uber-close {
+  line-height: 47px;
+}
+#megaMenu.wpmega-nojs li.menu-item.ss-nav-menu-mega ul.sub-menu.sub-menu-1,
+#megaMenu.megaFullWidthSubs li.menu-item.ss-nav-menu-mega ul.sub-menu.sub-menu-1,
+#megaMenu li.menu-item.ss-nav-menu-mega.ss-nav-menu-mega-fullWidth ul.sub-menu.sub-menu-1 {
+  left: 0;
+}
+#megaMenu.megaMenuHorizontal ul.megaMenu li.menu-item.mega-with-sub > a:after,
+#megaMenu.megaMenuHorizontal ul.megaMenu li.menu-item.ss-nav-menu-mega > a:after,
+#megaMenu.megaMenuHorizontal ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator:after,
+#megaMenu.megaMenuHorizontal ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator:after {
+  right: 11px;
+  border-top-color: #efefef;
+}
+#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub > a:after,
+#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega > a:after,
+#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator:after,
+#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator:after {
+  right: 11px;
+  border-left-color: #efefef;
+}
+@media only screen and (max-width: 767px) {
+  #megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu,
+  #megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item ul.sub-menu {
+    left: 0;
+  }
+}

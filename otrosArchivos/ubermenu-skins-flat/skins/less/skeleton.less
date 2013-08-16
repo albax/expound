@@ -1,0 +1,218 @@
+/* UberMenu Flat Skin Pack, Copyright Chris Mavricos, SevenSpark.  http://wpmegamenu.com/flat-skins */
+#megaMenu.@{presetPrefix}@{presetName}{
+	background: @barColor;
+
+	//font
+	#megaMenuToggle,
+	ul.megaMenu li.menu-item,
+	ul.megaMenu li.menu-item a,
+	ul.megaMenu li.menu-item span,
+	ul.megaMenu p,
+	ul.megaMenu .widgettitle{
+		font-family: @fontFamily;
+	}
+
+	//toggle
+	#megaMenuToggle .megaMenuToggle-icon{
+		top:3px;
+		background:@topLevelColor;
+	}
+	#megaMenuToggle .megaMenuToggle-icon:before,
+	#megaMenuToggle .megaMenuToggle-icon:after{
+		background:@topLevelColor;
+	}
+
+
+	ul.megaMenu > li.menu-item > a,
+	ul.megaMenu > li.menu-item > span.um-anchoremulator,
+	#megaMenuToggle {
+		padding: @topLevelPadding;
+		color: @topLevelColor;
+		font-size: @topLevelFontSize;;
+
+		border: none;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		line-height:20px;
+
+
+	}
+
+	ul.megaMenu > li.menu-item > a span.wpmega-link-title, 
+	ul.megaMenu > li.menu-item > span.um-anchoremulator span.wpmega-link-title {
+		font-weight: @topLevelFontWeight;
+	}
+
+
+	// Menu Items with Dropdowns 
+	ul.megaMenu li.menu-item.ss-nav-menu-reg li.menu-item.megaReg-with-sub > a,
+	ul.megaMenu li.menu-item.ss-nav-menu-reg li.menu-item.megaReg-with-sub > span.um-anchoremulator,
+	ul.megaMenu li.menu-item.mega-with-sub > a,
+	ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator,
+	ul.megaMenu li.menu-item.ss-nav-menu-mega > a,
+	ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator {
+		padding-right:25px;
+	}
+
+	// Top Level Items - Hover
+	ul.megaMenu > li.menu-item:hover > a,
+	ul.megaMenu > li.menu-item > a:hover,
+	ul.megaMenu > li.menu-item.megaHover > a,
+	ul.megaMenu > li.menu-item:hover > span.um-anchoremulator,
+	ul.megaMenu > li.menu-item > span.um-anchoremulator:hover,
+	ul.megaMenu > li.menu-item.megaHover > span.um-anchoremulator {
+		background-color: @topLevelBkgHover;
+	}
+
+	// Top Level Items - Current Item 
+	ul.megaMenu > li.menu-item.current-menu-item > a, 
+	ul.megaMenu > li.menu-item.current-menu-parent > a, 
+	ul.megaMenu > li.menu-item.current-menu-ancestor > a {
+		background: @topLevelBkgCurrent;
+	}
+
+	//Top Level Highlight Color
+	ul.megaMenu > li.menu-item.ss-nav-menu-highlight > a, 
+	ul.megaMenu > li.menu-item.ss-nav-menu-highlight > span.um-anchoremulator {
+		background: @highlightColor;
+	}
+
+	// Sub Menu Container Style 
+	ul.megaMenu > li.menu-item.ss-nav-menu-mega > ul.sub-menu-1, 
+	ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu {
+		border-color: @submenuBorderColor;
+		background: @submenuBkg;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-o-box-sizing:border-box;
+		box-sizing:border-box;
+
+		-webkit-border-radius:0;
+		-moz-border-radius:0;
+		-o-border-radius:0;
+		border-radius:0;
+	}
+
+	ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu{
+		min-width:100%;
+	}
+
+
+
+	// Sub Menu Headers 
+	ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item > a,
+	ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item:hover > a,
+	ul.megaMenu li.menu-item.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > a,
+	ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item > span.um-anchoremulator,
+	ul.megaMenu li.menu-item.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > span.um-anchoremulator,
+	.wpmega-widgetarea h2.widgettitle {
+		color: @submenuHeaderColor;
+		font-weight: bold;
+		padding-bottom: .4em;
+		margin-bottom: 0.6em;
+	}
+	// Sub Menu Links & Fake Links 
+	ul.megaMenu li.menu-item ul.sub-menu,
+	ul.megaMenu li.menu-item.ss-nav-menu-mega ul ul.sub-menu li.menu-item > a,
+	ul.megaMenu li.menu-item.ss-nav-menu-mega ul ul.sub-menu li.menu-item > span.um-anchoremulator,
+	ul.megaMenu ul.sub-menu li.menu-item > a,
+	ul.megaMenu ul.sub-menu li.menu-item > span.um-anchoremulator,
+	ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu li.menu-item ul.wpmega-postlist div.wpmega-postlist-title a {
+		color: @submenuLinkColor;
+		font-size: @submenuFontSize;
+		text-shadow: none;
+		background-color: transparent;
+	}
+
+	// Sub Menu Link Hover & Current Menu Item
+	ul.megaMenu ul.sub-menu li.menu-item a:hover span.wpmega-link-title,
+	ul.megaMenu ul.sub-menu li.menu-item.megaHover > a span.wpmega-link-title,
+	ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu li.menu-item ul.wpmega-postlist div.wpmega-postlist-title a:hover,
+	ul.megaMenu li.menu-item.current-menu-ancestor ul.sub-menu li.menu-item.current-menu-item > a{
+		color: @submenuLinkHoverColor;
+		background-color: transparent;
+	}
+
+	// Sub Menu Highlight
+	ul.megaMenu li.menu-item ul.sub-menu li.menu-item.ss-nav-menu-highlight > a, 
+	ul.megaMenu li.menu-item ul.sub-menu li.menu-item.ss-nav-menu-highlight > span.um-anchoremulator,
+	ul.megaMenu li.menu-item ul.sub-menu li.menu-item.ss-nav-menu-highlight:hover > a, 
+	ul.megaMenu li.menu-item ul.sub-menu li.menu-item.ss-nav-menu-highlight:hover > span.um-anchoremulator{
+		color: @submenuHighlightColor;
+	}
+
+	// Item Description 
+	ul.megaMenu li.menu-item a span.wpmega-item-description, 
+	ul.megaMenu li.menu-item span.um-anchoremulator span.wpmega-item-description {
+		font-size: @itemDescriptionFontSize;
+		color: @itemDescriptionColor;
+		text-transform: uppercase;
+		padding-top:2px;
+
+	}
+	ul.megaMenu > li.menu-item > a span.wpmega-item-description, 
+	ul.megaMenu > li.menu-item > span.um-anchoremulator span.wpmega-item-description{
+		color:@topLevelItemDescriptionColor;
+	}
+	ul.megaMenu > li.menu-item:hover > a span.wpmega-item-description, 
+	ul.megaMenu > li.menu-item:hover > span.um-anchoremulator span.wpmega-item-description,
+	ul.megaMenu > li.menu-item.megaHover > a span.wpmega-item-description, 
+	ul.megaMenu > li.menu-item.megaHover > span.um-anchoremulator span.wpmega-item-description,
+	ul.megaMenu > li.menu-item.current-menu-item > a span.wpmega-item-description, 
+	ul.megaMenu > li.menu-item.current-menu-item > span.um-anchoremulator span.wpmega-item-description,
+	ul.megaMenu > li.menu-item.current-menu-parent > a span.wpmega-item-description, 
+	ul.megaMenu > li.menu-item.current-menu-parent > span.um-anchoremulator span.wpmega-item-description,
+	ul.megaMenu > li.menu-item.current-menu-ancestor > a span.wpmega-item-description, 
+	ul.megaMenu > li.menu-item.current-menu-ancestor > span.um-anchoremulator span.wpmega-item-description{
+		color:@topLevelItemDescriptionHover;
+	}
+
+	> ul.megaMenu > li.menu-item > .wpmega-nonlink > form#searchform.ubersearch-v2 .ubersearch{
+		margin:5px 5px 0 0;	
+	}
+	> ul.megaMenu > li.menu-item > .wpmega-nonlink > form#searchform.ubersearch-v2 input[type="submit"]{
+		background:#111;
+		background:@searchButtonColor;
+	}
+
+	ul.megaMenu a span.uber-close,
+	ul.megaMenu span.um-anchoremulator span.uber-close{
+		line-height:47px;
+	}
+
+}
+
+#megaMenu.wpmega-nojs li.menu-item.ss-nav-menu-mega ul.sub-menu.sub-menu-1, 
+#megaMenu.megaFullWidthSubs li.menu-item.ss-nav-menu-mega ul.sub-menu.sub-menu-1, 
+#megaMenu li.menu-item.ss-nav-menu-mega.ss-nav-menu-mega-fullWidth ul.sub-menu.sub-menu-1{
+	left:0;
+}
+
+ 
+#megaMenu.megaMenuHorizontal ul.megaMenu li.menu-item.mega-with-sub > a:after, 
+#megaMenu.megaMenuHorizontal ul.megaMenu li.menu-item.ss-nav-menu-mega > a:after, 
+#megaMenu.megaMenuHorizontal ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator:after, 
+#megaMenu.megaMenuHorizontal ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator:after{
+	right:11px;
+	border-top-color:@topLevelArrowColor;
+}
+#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub > a:after, 
+#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega > a:after, 
+#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator:after, 
+#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator:after{
+	right:11px;
+	border-left-color:@topLevelArrowColor;
+}
+
+@media only screen and (max-width: 767px) {
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu,
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item ul.sub-menu {
+		left:0;
+	}
+}
+
+

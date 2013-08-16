@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>UberMenu Flat Skins Pack Extension</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+
+      @media (max-width: 980px) {
+        /* Enable use of floated navbar text */
+        .navbar-text.pull-right {
+          float: none;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <!--<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>-->
+          <a class="brand" href="#">UberMenu Flat Skins Extension</a>
+          <!--
+          <div class="nav-collapse collapse">
+            <p class="navbar-text pull-right">
+
+            </p>
+            
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>--><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <header class="jumbotron subhead" id="overview">
+      <div class="container">
+        <h1>Flat Skin Pack</h1>
+        <p class="lead">30 New Flat Skins for UberMenu.</p>
+    
+      </div>
+    </header>
+
+    <div class="container clearme">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well bs-docs-sidenav sidebar-nav affix">
+            <ul class="nav nav-list">
+              <li class="nav-header">Installation</li>
+              <li><a href="#install">Install the Plugin</a></li>
+
+              <li class="nav-header">Usage</li>
+              <li><a href="#select-skin">Select your skin</a></li>
+
+              <li class="nav-header">Customize</li>
+              <li><a href="#customize">Create a custom skin</a></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
+            <img src="img/FlatSkinPack_Full.png" />
+            
+          <div class="row-fluid">
+            <div class="span12">
+              <section>
+                <h2 id="install">Install the plugin</h2>
+                <p class="well">You can install UberMenu Flat Skins Extension like any WordPress plugin: either upload the zip through the WordPress Plugin Installer or FTP the unzipped files to your wp-content/plugins folder </p>
+
+                <h3>Option 1: WordPress Plugin Uploader</h3>
+
+                <p>You can install the plugin via the WordPress plugin uploader without unzipping the file.</p>
+
+                <ol>
+                  <li>Log into your WordPress admin panel</li>
+                  <li>Navigate to <em>Plugins &gt; Add New</em></li>
+                  <li>Click <em class="btn">Upload</em><br><img src="http://i.imgur.com/yF5GpT4.png"></li>
+                  <li>Click <em class="btn">Choose File</em> and select the UberMenu Flat Skins plugin package zip.</li>
+                  <li>Click <em class="btn">Install Now</em>.</li>
+                  <li>Complete the installation process as directed by WordPress.</li>
+                </ol>
+
+                <h3>Option 2: FTP</h3>
+                <ol>
+                  <li>Decompress the .zip file you downloaded from CodeCanyon.</li>
+                  <li>Find the <code>ubermenu</code> folder (this directory is created when you unzip the file).</li>
+                  <li>Upload the <code>ubermenu</code> folder to your <code>wp-content/plugins</code> directory.</li>
+                  <li>Navigate to your Control Panel: Plugins</li>
+                  <li>Under <strong>UberMenu - Flat Skins Pack</strong>, click <em>Activate</em></li>
+                </ol>
+
+              </section>
+
+              <section>
+                
+                <h2 id="select-skin">Select your skin</h2>
+
+                <p>After activating the skin pack extension, you'll have access to 30 new skins; it will not automatically change the current skin you have set</p>
+
+                <h4>1. Navigate to Appearance > UberMenu > Style Configuration</h4>
+
+                <img src="http://i.imgur.com/q2bykt5.png" />
+
+                <h4>2. Ensure that your Style Application is set to "Use a Preset"</h4>
+
+                <img src="http://i.imgur.com/qmYQRpO.png" />
+
+                <h4>3. Click the selectbox next to Style Preset and select one of the new skins</h4>
+
+                <img src="http://i.imgur.com/PurOLAW.png" />
+
+                <p>The new skins will be placed at the top of the options</p>
+
+                <h4>4. Save your settings</h4>
+                <p>This will make your skin live</p>
+
+              </section>
+
+              <section>
+
+                <h2 id="customize">Customize with LESS</h2>
+
+                <p class="alert alert-info">Please note that you should be familiar with LESS to use this section; if not, you can always just customize the CSS files as usual rather than use LESS.  There are lots of great resources around the internet on how to use LESS if you'd like to learn it - details on installing and using LESS are outside the scope of this document or support.</p>
+
+                <p>The Skin Pack includes LESS files, which make it easy to customize colors and fonts by changing a few variables.  Here's a nice <a href="http://coding.smashingmagazine.com/2011/09/09/an-introduction-to-less-and-comparison-to-sass/">Intro to LESS</a> if you are unfamiliar (the specifics of using LESS are outside the scope of the support guide)</p>
+
+                <p>Here's the easiest way to leverage the LESS files to create a custom CSS file to use as your skin.
+
+                <h3>1. Create a new file called <code>custom.less</code> in the extension's <code>/skins</code> directory.</h3>
+
+                <p>This is where we'll customize our colors, etc.</p>
+
+                <h3>2. Copy the contents of any LESS file (for example, <code>blue.less</code>), into your <code>custom.css</code> file</h3>
+
+                <p>To make things easy, if you want a dark submenu, copy a LESS file ending in <code>-dark.less</code>; if you want a colored bar, copy a LESS file endine in <code>-bar.less</code></p>
+
+                <h3>3. Alter preset settings</h3>
+
+                <p>Replace the @presetName with 'Container' and set @presetPrefix to 'megaMenu'</p>
+
+<pre>
+@presetPrefix: megaMenu;
+@presetName: Container;
+</pre>
+
+                <h3>4. Customize variables</h3>
+
+                <p>Make all your changes in custom.less.  Generally it's simple to just change your accent color to whatever hex value you like.  You can also add any of the variables from <code>default.less</code> or the submenu less files to override them in your <code>custom.less</code>.  </p>
+
+                <h3>5. Compile LESS to CSS</h3>
+
+                <p>Use your favorite method (less.js, lessc) to compile your LESS code into a <code>custom.css</code> stylesheet.  Setup of LESS is outside the scope of this document - information available at <a href="http://lesscss.org/">lesscss.org</a>.
+
+                <h3>6. Switch to your custom stylesheet</h3>
+
+                <p>First, copy <code>custom.css</code> to your UberMenu plugin folder - <code>ubermenu/custom/custom.css</code>.</p>
+
+                <p>Next, switch your <strong>Style Application</strong> to <strong>Custom</strong> as described <a href="http://sevenspark.com/docs/ubermenu-custom-skin">here</a>
+
+                <h3>7. Disable the Flat Skins extension</h3>
+
+                <p>Since you now have an independent custom skin, you can disable the Flat Skins extension, as you no longer need it</p>
+
+              </section>
+            </div><!--/span-->
+          </div>
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; SevenSpark 2013</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+  </body>
+</html>

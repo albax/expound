@@ -1,0 +1,46 @@
+He creado los siguientes subdominios donde puedes comenzar a hacer tu migración de forma
+que una vez que termines podamos asignarles el dominio definitivo.
+
+http://observatoriodejusticia.ieduarm.org
+http://miradorempresarial.ieduarm.org	
+
+Para subir los archivos por ftp deberás usar los siguientes accesos:
+
+ftp.ieduarm.org 
+usuario: ieduarm
+password: +kT$TH=@,bWb
+
+Y las rutas para las webs antes mencionadas son las siguientes:
+
+/public_html/observatoriodejusticia
+/public_html/miradorempresarial    
+
+
+Si además necesitas crear una base de datos por favor utiliza el CPanel de la siguiente dirección:
+
+http://cpanel.ieduarm.org 
+usuario: ieduarm
+password: +kT$TH=@,bWb
+
+=============================================================
+
+observatoriodejusticia.ieduarm.org
+
+bd:	wp328
+sufijo:	wp_
+Nombre del Sitio: Observatorio de Justica UARM
+Descripción del Sitio: UARM - 2012
+
+Usuario Administrador: adminOJ
+Contraseña Administrador: $adminOJ99
+Email Administrador: bacx.al@gmail.com
+
+Selecciona Lenguaje: SPA
+
+
+
+ $adminME99
+
+http://observatoriodejusticia.ieduarm.org/wp-login.php?redirect_to=http%3A%2F%2Fobservatoriodejusticia.ieduarm.org%2Fwp-admin%2F&reauth=1
+
+http://observatoriodejusticia.ieduarm.org/
